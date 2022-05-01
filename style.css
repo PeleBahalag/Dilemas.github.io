@@ -1,0 +1,132 @@
+    html,
+    body {
+        user-select: none;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        background-color: black;
+        user-select: none;
+    }
+    
+    video {
+        position: absolute;
+        margin: auto;
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        top: 0;
+        transition: all .4s ease;
+    }
+    
+    #btn {
+        z-index: 999;
+        position: absolute;
+    }
+    
+    #pause {
+        z-index: 9999;
+        width: 20vw;
+        opacity: 0;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        transition: all .2s ease;
+    }
+    
+    .btnSquish {
+        opacity: 0.8;
+        width: 30vw;
+        height: 40vh;
+        font-size: 1.5vw;
+        cursor: pointer;
+        transition: all .3s ease;
+        color: white;
+        margin: -.8vw;
+    }
+    
+    .div-btn:hover .btnSquish {
+        width: 35vw;
+        height: 45vh;
+        margin-left: -3vw;
+    }
+    
+    .div-btn:hover h1 {
+        top: -57%;
+    }
+    
+    .div-btn {
+        text-align: center;
+        opacity: 0.8;
+        width: 30vw;
+        height: 40vh;
+        font-size: 1.5vw;
+        cursor: pointer;
+        transition: all .3s ease;
+        color: black;
+        margin: -.8vw;
+        font-family: Heebo;
+    }
+    
+    h1 {
+        position: relative;
+        margin: 0;
+        top: -50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 55%;
+        font-size: 2vw;
+        transition: all .3s ease;
+    }
+    
+    #btn-container {
+        z-index: 99999;
+        display: none;
+        position: absolute;
+        top: 60%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 49%;
+        flex-wrap: nowrap;
+    }
+    
+    #restart {
+        display: none;
+        z-index: 999999;
+        width: 4vw;
+        position: absolute;
+        top: 85%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 90%;
+        cursor: pointer;
+        transform-origin: bottom-left;
+        transition: all .4s ease;
+    }
+    
+    #restart:hover {
+        transform: rotateZ(-80deg);
+        /* transform-origin: left; */
+        left: 88%;
+        top: 82%;
+    }
+    
+    #next {
+        display: none;
+        z-index: 99999;
+        width: 25vw;
+        position: absolute;
+        top: 35%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        cursor: pointer;
+        transform-origin: bottom-left;
+        transition: all .4s ease;
+    }
+    
+    #next:hover {
+        left: 60%;
+    }
