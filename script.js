@@ -52,6 +52,8 @@ const vidEnded = (event) => {
         document.getElementById("next").addEventListener("click", secCon);
         document.getElementById("restart").addEventListener("click", startVid);
     }
+
+    Document.exitFullscreen()
 }
 
 // ----------------
