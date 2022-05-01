@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
 const startVid = () => {
     video.load();
     video.removeAttribute('controls');
-    video.play();
+    // video.play();
     window.addEventListener("click", togglePause);
     video.addEventListener("ended", vidEnded);
     document.getElementById("btn-container").style.display = "none";
@@ -56,7 +56,6 @@ const vidEnded = (event) => {
         document.getElementById("restart").addEventListener("click", startVid);
     }
 
-    Document.exitFullscreen()
 }
 
 // ----------------

@@ -108,7 +108,6 @@
     
     #restart:hover {
         transform: rotateZ(-80deg);
-        /* transform-origin: left; */
         left: 88%;
         top: 82%;
     }
@@ -136,13 +135,25 @@
     }
     
     @media screen and (max-width: 768px) {
-        video {
-            position: absolute;
-            margin: auto;
-            height: 40vh;
-            width: 100vw;
-            left: 0;
-            top: 0;
-            transition: all .4s ease;
+        .btnSquish {
+            opacity: 0.8;
+            width: 30vw;
+            height: 10vh;
+            font-size: 1.5vw;
+            cursor: pointer;
+            transition: all .3s ease;
+            color: white;
+            margin: -.8vw;
+        }
+        .div-btn {
+            text-align: center;
+            opacity: 0.8;
+            width: 30vw;
+            height: 10vh;
+            font-size: 1.5vw;
+            cursor: pointer;
+            transition: all .3s ease;
+            color: black;
+            font-family: Heebo;
         }
     }
