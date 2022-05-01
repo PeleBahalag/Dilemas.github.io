@@ -10,6 +10,9 @@ window.addEventListener("load", () => {
 // ---------------------
 // Start or restart a video.
 const startVid = () => {
+    video.load();
+    video.removeAttribute('controls');
+    video.play();
     window.addEventListener("click", togglePause);
     video.addEventListener("ended", vidEnded);
     document.getElementById("btn-container").style.display = "none";
