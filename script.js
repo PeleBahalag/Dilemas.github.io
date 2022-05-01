@@ -24,8 +24,10 @@ const startVid = () => {
 // ---------------------
 // Add components at the end of the video (listener)
 const vidEnded = (event) => {
-
+    document.webkitExitFullscreen();
     document.exitFullscreen();
+    document.mozCancelFullScreen();
+    document.msExitFullscreen();
     if (source.src.includes("Intro")) {
         document.getElementById("btn-container").style.display = "flex";
         document.getElementById("restart").style.display = "block";
