@@ -130,3 +130,7 @@
     #next:hover {
         left: 60%;
     }
+    
+    video::-webkit-media-controls-fullscreen-button {
+        display: none !important;
+    }
