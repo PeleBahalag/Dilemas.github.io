@@ -39,7 +39,7 @@
     .btnSquish {
         opacity: 0.8;
         width: 30vw;
-        height: 40vh;
+        height: 20vw;
         font-size: 1.5vw;
         cursor: pointer;
         transition: all .3s ease;
@@ -61,7 +61,7 @@
         text-align: center;
         opacity: 0.8;
         width: 30vw;
-        height: 40vh;
+        height: 20vw;
         font-size: 1.5vw;
         cursor: pointer;
         transition: all .3s ease;
@@ -138,7 +138,7 @@
         .btnSquish {
             opacity: 0.8;
             width: 30vw;
-            height: 10vh;
+            height: 15vh;
             font-size: 1.5vw;
             cursor: pointer;
             transition: all .3s ease;
@@ -149,11 +149,39 @@
             text-align: center;
             opacity: 0.8;
             width: 30vw;
-            height: 10vh;
+            height: 15vh;
             font-size: 1.5vw;
             cursor: pointer;
             transition: all .3s ease;
             color: black;
             font-family: Heebo;
+        }
+        #next {
+            top: 45%;
+        }
+        #restart {
+            display: none;
+            z-index: 999999;
+            width: 4vw;
+            position: absolute;
+            top: 65%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            left: 90%;
+            cursor: pointer;
+            transform-origin: bottom-left;
+            transition: all .4s ease;
+        }
+        #restart:hover {
+            left: 88%;
+            top: 64%;
+        }
+        div-btn:hover .btnSquish {
+            width: 15vw;
+            height: 15vh;
+            margin-left: -3vw;
+        }
+        .div-btn:hover h1 {
+            top: 20%;
         }
     }
