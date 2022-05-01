@@ -40,6 +40,7 @@ const vidEnded = (event) => {
     } else if (source.src.includes(`BW`)) {
         source.src = './assets/videos/Intro.mp4';
         video.load();
+        video.currentTime = 36.5;
         startVid();
     } else if (source.src.includes(`${correctVid}-2`)) {
         document.getElementById("restart").style.display = "block";
