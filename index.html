@@ -13,7 +13,7 @@
 <body>
 
     <div class="player" id="player">
-        <video width="250" id="vid" autoplay>
+        <video width="250" id="vid" autoplay preload="auto" controls>
 
             <source id="source" src="./assets/videos/Intro.mp4"
                     type="video/mp4">
@@ -26,15 +26,15 @@
     <img src="./assets/pictures/restart.png" id="restart" />
     <img src="./assets/pictures/next.png" id="next" />
     <div id="btn-container">
-        <div class="div-btn">
+        <div class="div-btn" id="btn1div">
             <img id="btn1" class="btnSquish" src="./assets/pictures/gifs/btn.gif" />
             <h1>חודלת</h1>
         </div>
-        <div class="div-btn">
+        <div class="div-btn" id="btn2div">
             <img id="btn2" class="btnSquish" src="./assets/pictures/gifs/btn.gif" />
             <h1>מתעלמת</h1>
         </div>
-        <div class="div-btn">
+        <div class="div-btn" id="btn3div">
             <img id="btn3" class="btnSquish" src="./assets/pictures/gifs/btn.gif" />
             <h1>מתערבת</h1>
         </div>

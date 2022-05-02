@@ -31,9 +31,9 @@ const vidEnded = (event) => {
         window.removeEventListener("click", togglePause);
         document.getElementById("restart").addEventListener("click", startVid);
 
-        let btn1 = document.getElementById("btn1");
-        let btn2 = document.getElementById("btn2");
-        let btn3 = document.getElementById("btn3");
+        let btn1 = document.getElementById("btn1div");
+        let btn2 = document.getElementById("btn2div");
+        let btn3 = document.getElementById("btn3div");
         btn1.addEventListener("click", sit1);
         btn2.addEventListener("click", sit2);
         btn3.addEventListener("click", sit3);
