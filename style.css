@@ -155,7 +155,7 @@
             left: 50%;
         }
         #btn-container {
-            top: 60vh;
+            top: 40vh;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             left: 49%;
