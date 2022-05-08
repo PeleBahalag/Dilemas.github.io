@@ -136,7 +136,7 @@
     }
     /* for phones and tablets */
     
-    @media screen and (max-device-width: 1284px) {
+    @media screen and (max-device-width: 992px) {
         html,
         body {
             background-color: white;
