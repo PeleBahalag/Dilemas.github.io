@@ -147,6 +147,7 @@
             height: 56.25vw;
             left: 0;
             top: 0;
+            margin: 0;
         }
         #pause {
             top: 20vh;
@@ -155,9 +156,9 @@
             left: 50%;
         }
         #btn-container {
-            top: 40vh;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            top: 38vh;
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
             left: 49%;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -180,14 +181,14 @@
         }
         #restart {
             width: 4vw;
-            top: 45%;
+            top: 40%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             left: 90%;
         }
         #restart:hover {
             left: 88%;
-            top: 44%;
+            top: 39%;
         }
         .div-btn:hover .btnSquish {
             width: 60vw;
