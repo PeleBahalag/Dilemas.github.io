@@ -129,58 +129,66 @@
     #next:hover {
         left: 60%;
     }
-    /* video::-webkit-media-controls-fullscreen-button {
-        display: none !important;
-    } */
+    /* for phones and tablets */
     
     @media screen and (max-width: 768px) {
+        html,
+        body {
+            background-color: white;
+        }
+        video {
+            width: 100vw;
+            height: 56.25vw;
+            left: 0;
+            top: 10vh;
+        }
+        #pause {
+            top: 28vh;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        #btn-container {
+            bottom: 25vh;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            left: 49%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
         .btnSquish {
-            opacity: 0.8;
-            width: 30vw;
-            height: 15vh;
-            font-size: 1.5vw;
-            cursor: pointer;
-            transition: all .3s ease;
-            color: white;
+            width: 50vw;
+            height: 20vh;
             margin: -.8vw;
         }
         .div-btn {
-            text-align: center;
-            opacity: 0.8;
-            width: 30vw;
-            height: 15vh;
-            font-size: 1.5vw;
-            cursor: pointer;
-            transition: all .3s ease;
-            color: black;
-            font-family: Heebo;
+            width: 50vw;
+            height: 20vh;
+            margin: -4vw;
+        }
+        h1 {
+            font-size: 5vw;
         }
         #next {
             top: 45%;
         }
         #restart {
-            display: none;
-            z-index: 999999;
             width: 4vw;
-            position: absolute;
-            top: 65%;
+            top: 45%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             left: 90%;
-            cursor: pointer;
-            transform-origin: bottom-left;
-            transition: all .4s ease;
         }
         #restart:hover {
             left: 88%;
-            top: 64%;
+            top: 44%;
         }
-        div-btn:hover .btnSquish {
-            width: 15vw;
-            height: 15vh;
-            margin-left: -3vw;
+        .div-btn:hover .btnSquish {
+            width: 60vw;
+            height: 25vh;
+            margin-left: -5.5vw;
         }
         .div-btn:hover h1 {
-            top: 20%;
+            top: -63%;
         }
     }
