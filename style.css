@@ -136,7 +136,7 @@
     }
     /* for phones and tablets */
     
-    @media screen and (max-width:1284px) {
+    @media screen and (orientation: portrait) {
         html,
         body {
             background-color: white;
