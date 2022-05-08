@@ -1,3 +1,8 @@
+    @font-face {
+        font-family: Heebo;
+        src: url(./assets/fonts/Heebo/Heebo-Regular.ttf);
+    }
+    
     html,
     body {
         user-select: none;
