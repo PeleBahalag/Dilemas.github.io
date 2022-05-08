@@ -140,6 +140,7 @@
         html,
         body {
             background-color: white;
+            overflow: hidden;
         }
         video {
             width: 100vw;
@@ -154,7 +155,7 @@
             left: 50%;
         }
         #btn-container {
-            bottom: 25vh;
+            top: 70vh;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             left: 49%;
