@@ -156,7 +156,7 @@
             left: 50%;
         }
         #btn-container {
-            top: 38vh;
+            top: 70vw;
             -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
             left: 49%;
@@ -177,18 +177,18 @@
             font-size: 5vw;
         }
         #next {
-            top: 45%;
+            top: 70vw;
         }
         #restart {
             width: 4vw;
-            top: 40%;
+            top: 65vw;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             left: 90%;
         }
         #restart:hover {
             left: 88%;
-            top: 39%;
+            top: 63vw;
         }
         .div-btn:hover .btnSquish {
             width: 60vw;
